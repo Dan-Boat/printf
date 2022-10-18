@@ -3,14 +3,10 @@
 * _printf - function that replicate the stdio.h printf function
 * @format: the string input for printf
 * Return: string output and the number of string inputs
-*
 */
 int _printf(const char *format, ...)
 {
-	/* Initialize the printf arguments*/
-	unsigned int i = 0;
-	unsigned int len = 0;
-	unsigned int buf = 0;
+	unsigned int i = 0, len = 0, buf = 0; /* Initialize the printf arguments*/
 	va_list args;
 
 	int (*func)(va_list, char *, unsigned int);
@@ -18,15 +14,10 @@ int _printf(const char *format, ...)
 
 	va_start(args, format), buffer = malloc(sizeof(char) * 1024);
 	if (!format || !buffer || (format[i] == '%' && !format[i + 1]))
-	{
 		return (-1);
-	}
 	if (!format[i])
-	{
 		return (0);
-	}
-	/*traverse through the string argument and use converter*/
-	for (i = 0; format && format[i]; i++)
+	for (i = 0; format && format[i]; i++) /*traverse through the string*/
 	{
 		if (format[i] == '%')
 		{

@@ -1,20 +1,20 @@
 <h1> The printf funciton </h1>
 
-In this project, we replicate the printf function in the stdio.h libraray of C program. 
+In this project, we replicate the printf function in the stdio.h libraray of C program.
 _printf() is a function that performs formatted output conversion and print data. Its prototype is the following:
 
 	  ```int _printf(const char *format, ...)```
 
-Where **format** contains the string that is printed. 
+Where **format** contains the string that is printed.
 
 _printf() is a variadic function, it can receives n arguments that replace by n tags written inside the string.
 
 The format tags prototype is the following:
 
 	%[flags][length]specifier
-	
+
 If the program runs successfully, the **return value** is the amount of chars printed.
-	
+
 
 
 

@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_long_int - prints a long integer
- * @arguments: input string
- * @buf: buffer pointer
- * @ibuf: index for buffer pointer
+ * print_long_integer - prints a long integer
+ * @args: input string
+ * @buffer: buffer pointer
+ * @buf: index for buffer pointer
  * Return: number of chars printed.
  */
 int print_long_integer(va_list args, char *buffer, unsigned int buf)

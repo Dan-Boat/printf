@@ -8,7 +8,6 @@ int _printf(const char *format, ...)
 {
 	unsigned int i = 0, len = 0, buf = 0; /* Initialize the printf arguments*/
 	va_list args;
-
 	int (*func)(va_list, char *, unsigned int);
 	char *buffer;
 
@@ -27,8 +26,7 @@ int _printf(const char *format, ...)
 				return (-1);
 			}
 			else
-			{
-				func = get_func(format, i + 1);
+			{ func = get_func(format, i + 1);
 				if (func == NULL)
 				{
 					if (format[i + 1] == ' ' && !format[i + 2])
@@ -40,14 +38,12 @@ int _printf(const char *format, ...)
 					len += func(args, buffer, buf);
 					i += print_func(format, i + 1);
 				}
-			}
-			i++;
+			} i++;
 		}
 		else
 			handle_buffer(buffer, format[i], buf), len++;
 		for (buf = len; buf > 1024; buf -= 1024)
 			;
-	}
-	print_buffer(buffer, buf), free(buffer), va_end(args);
+	} print_buffer(buffer, buf), free(buffer), va_end(args);
 	return (len);
 }

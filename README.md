@@ -50,11 +50,7 @@ If the program runs successfully, the **return value** is the amount of chars pr
 
 * [print_rev.c](.): function that print strings in reverse form
 
-### print_rev.c
-Function That Writes The String To Stdout In Reverse.
-
-/* Indetifier : %r */
-
+* 
 ### print_rot.c
 Function That Writes The String To Stdout In Rot13.
 

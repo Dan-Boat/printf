@@ -20,17 +20,9 @@ If the program runs successfully, the **return value** is the amount of chars pr
 
 ## File Functions
 ------------------
+* [_printf.c](_printf.c): funciton that performs standard conversion of formated string outputs
 
-[_printf.c](_printf.c)
-Own Printf Function That Performs Formatted Output Conversion And Print Data.
-
-
-
-### main.h
-Header File Where All Prototypes Are Saved.
-
-
-
+* [main.h](main.h): the header files that contain all the other dependent functions
 ### print_func.c
 Pointer To A Function That Selects The Correct Function To Perform The Operation.
 
@@ -58,11 +50,7 @@ Function That Writes The String To Stdout.
 /* Indetifier : %s */
 
 
-### print_integer.c
-Function That Prints An Integer.
-
-/* Indetifier : %i or %d */
-
+* [print_integer.c](print_interger.c): function that print integers (%i or %d)
 
 ### print_binaray.c
 Function That Prints Decimal In Binary.

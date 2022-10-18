@@ -1,9 +1,6 @@
-## _printf()
+<h1> The printf funciton </h1>
 
-The printf project is a collaboration between Tolulope Fakunle and Bamidele Adefolaju, students of Software Engineering at ALX. 
-
-This function named "_printf()" imitates the actual "printf()" command located in the stdio.h library of C programming Language. It contains some of the basic features and functions found in the manual 3 of "printf".
-
+In this project, we replicate the printf function in the stdio.h libraray of C program. 
 _printf() is a function that performs formatted output conversion and print data. Its prototype is the following:
 
 	  int _printf(const char *format, ...) 
@@ -29,45 +26,45 @@ Own Printf Function That Performs Formatted Output Conversion And Print Data.
 
 
 
-### holberton.h
+### main.h
 Header File Where All Prototypes Are Saved.
 
 
 
-### get_print_func.c
+### print_func.c
 Pointer To A Function That Selects The Correct Function To Perform The Operation.
 
 
 
-### print_buf.c
+### print_buffer.c
 Function That Prints The Buffer.
 
 
 
-### handl_buf.c
+### handle_buffer.c
 Function That Concatenates The Buffer Characters.
 
 
 
-### print_chr.c
+### print_character.c
 Function That Writes The Character C To Stdout.
 
 /* Indetifier : %c */
 
 
-### print_str.c
+### print_string.c
 Function That Writes The String To Stdout.
 
 /* Indetifier : %s */
 
 
-### print_int.c
+### print_integer.c
 Function That Prints An Integer.
 
 /* Indetifier : %i or %d */
 
 
-### print_bnr.c
+### print_binaray.c
 Function That Prints Decimal In Binary.
 
 /* Indetifier : %b */
@@ -121,7 +118,7 @@ Function That Writes The String To Stdout In Rot13.
 
 
 
-### print_add.c
+### print_address.c
 Function That Prints The Address Of An Input Variable.
 
 /* Indetifier : %p */

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* handle_bufffer - concatenates the buffer characters
+* handle_buffer - concatenates the buffer characters
 * @buffer: buffer pointer
 * @c: charcter to concatenate
 * @buf: index of buffer pointer

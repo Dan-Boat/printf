@@ -61,69 +61,27 @@ print long and short decimal in octal (%lo)
 print long and short decimal in hexadecimal (%lx)
 
 * [print_long_integer.c](print_long_interger.c), [print_short_int.c](print_short_int.c): functions that
-print long and short integer string (%li)
+print long and short integer string (%li, %hi)
 
  * [print_long_upx.c](print_long_upx.c), [print_short_upx.c](print_short_upx.c): functions that
-print long and short integer string (%li)
+print long and short integer string (%lX)
 
-*  [print_long_unsigned_int.c](print_long_unsigned_int.c), [print_short_int.c](print_short_unt.c): functions that
-print long and short unsigned integer string (%lu)
+*  [print_long_unsigned_int.c](print_long_unsigned_int.c), [print_short_unt.c](print_short_unt.c): functions that
+print long and short unsigned integer string (%lu, %hu)
 
-/* Indetifier : %hi */
+* [print_num_hex.c](print_num_hex.c): print number in a hexadecimal (%#x)
 
-### print_short_upx.c
-Function That Prints A Short Decimal In Uppercase Hexadecimal.
+* [print_num_upx.c](print_num_upx.c): print number in a upper hexadecimal (%#X)
 
-/* Indetifier : %hX */
+* [print_num_oct.c](print_num_oct.c): print number in a octal (%#xo)
 
+* [print_plus_int.c]: print integer with plus symbol (%+i)
 
+* [print_space_int.c]: print integer begining with 0 and u (%i)
 
-### print_short_unt.c
-Function That Prints A Short Unsigned Integer.
-
-/* Indetifier : %hu */
-
-### print_num_hex.c
-Function That Print A Number In Hexadecimal Begining With 0 And x.
-
-/* Indetifier : %#x */
-### print_num_oct.c
-Function That Prints A Number In Octal Begining With 0 And o.
-
-/* Indetifier : %#o */
-
-
-### print_num_upx.c
-Function That Prints A Number In Uppercase Hexadecimal.
-
-/* Indetifier : %#X */
-
-
-
-### print_plus_int.c
-Function That Prints An Integer With Plus Symbol.
-
-/* Indetifier : %+i */
-
-
-
-### print_space_int.c
-Function That Prints An Integer Begining With 0 And u.
-
-/* Indetifier : % i */
-
-
-
-### ev_print_func.c
-Function That Returns The Amount Of Indetifiers.
-
-
-
-### Authors
-Daniel Boateng
-
-------------
+<h2> Author: </h2>
+** Daniel Boateng **
 
 ### End
 
-Boateng Daniel @ALX-SE
+@ALX-SE

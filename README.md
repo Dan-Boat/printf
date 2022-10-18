@@ -50,54 +50,24 @@ If the program runs successfully, the **return value** is the amount of chars pr
 
 * [print_rev.c](.): function that print strings in reverse form
 
-* 
-### print_rot.c
-Function That Writes The String To Stdout In Rot13.
+* [print_rot.c](print_rot.c): function that print rot13 strings (with %R)
 
-/* Indetifier : %R */
+* [print_address.c](print_address.c): funciton that print pointers (with %p)
 
-### print_address.c
-Function That Prints The Address Of An Input Variable.
+* [print_long_oct.c](print_long_oct.c), [print_short_oct.c](print_short_oct.c): functions that
+print long and short decimal in octal (%lo)
 
-/* Indetifier : %p */
+* [print_long_hex.c](print_long_hex.c), [print_short_hex.c](print_short_hex.c): functions that
+print long and short decimal in hexadecimal (%lx)
 
-### print_long_oct.c
-Function That Prints Long Decimal Number In Octal.
+* [print_long_integer.c](print_long_interger.c), [print_short_int.c](print_short_int.c): functions that
+print long and short integer string (%li)
 
-/* Indetifier : %lo */
+ * [print_long_upx.c](print_long_upx.c), [print_short_upx.c](print_short_upx.c): functions that
+print long and short integer string (%li)
 
-### print_long_hex.c
-Function That Prints Long Decimal Number In Hexadecimal.
-
-/* Indetifier : %lx */
-
-### print_long_int.c
-Function That Prints  A Long Integer.
-
-/* Indetifier : %li */
-
-### print_long_upx.c
-Function That Prints A Long Decimal In Uppercase Hexadecimal.
-
-/* Indetifier : %lX */
-
-### print_long_unt.c
-Function That Prints A Long Unsigned Integer.
-
-/* Indetifier : %lu */
-
-### print_short_oct.c
-Function That Prints Short Decimal Number In Octal.
-
-/* Indetifier : %ho */
-
-### print_short_hex.c
-Function That Prints Short Decimal Number In Hexadecimal.
-
-/* Indetifier : %hx */
-
-### print_short_int.c
-Function That Prints  A Short Integer.
+*  [print_long_unsigned_int.c](print_long_unsigned_int.c), [print_short_int.c](print_short_unt.c): functions that
+print long and short unsigned integer string (%lu)
 
 /* Indetifier : %hi */
 

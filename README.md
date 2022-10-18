@@ -34,7 +34,7 @@ If the program runs successfully, the **return value** is the amount of chars pr
 
 * [print_hex.c](print_hex.c): funtion for hexadecimal
 
-* [print_oct.c](.): funtion for octal
+* [print_oct.c](print_oct.c): funtion for octal
 
 * [print_string.c](print_string.c): funtion for strings
 
@@ -42,21 +42,13 @@ If the program runs successfully, the **return value** is the amount of chars pr
 
 * [handle_buffer.c](handle_buffer.c): funciton that concatenates buffer chars
 
+* [print_upx.c](print_upper_hex.c): function that prints decimal in uppercase hexadecimal
 
-### print_upx.c
-Function That Prints Decimal In Uppercase Hexadecimal.
+* [print_non_chars.c](print_non_chars.c): funciton that handles non printed values
 
-/* Indetifier : %X */
+* [print_unsigned_integer.c](print_unsigned_integer.c): function that print unsigned integer
 
-### print_usr.c
-Function That Prints A String And Values Of Non-Printed Chars.
-
-/* Indetifier : %S */
-
-### print_unt.c
-Function That Prints An Unsigned Integer.
-
-/* Indetifier : %u */
+* [print_rev.c](.): function that print strings in reverse form
 
 ### print_rev.c
 Function That Writes The String To Stdout In Reverse.
